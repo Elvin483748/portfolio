@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Travelo</title>
+</head>
+
+<body>
+    <style>
+        .swiper-pagination-bullet {
+            width: 11px;
+            height: 11px;
+            text-align: center;
+            font-size: 80px;
+            color: #000;
+            background: rgba(0, 0, 0, 0.2);
+            opacity: 1;
+        }
+
+        .swiper-pagination-bullet-active {
+            color: #fff;
+            background: red;
+        }
+    </style>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="responsive-background"></div>
+                <div class="nav-logo">
+                    <img src="assets/images-page1/logo.png (1).webp" alt="">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="#">Pages <i class="fa-solid fa-angle-down"></i> </a>
+                            <div class="dropdown-menu">
+                                <ul>
+                                    <li><a href="#">Destination.Details </a></li>
+                                    <li><a href="#">Elements </a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li><a href="#">Blog <i class="fa-solid fa-angle-down"></i> </a>
+
+                            <div class="dropdown-menu">
+                                <ul>
+                                    <li><a href="#">Blog </a></li>
+                                    <li><a href="#">Single-blog </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="number-container">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="number">10(256)-928 256</div>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </div>
+                    <div class="search" id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <form class="modal-input">
+                        <div class="modal-content">
+                            <input type="text" placeholder="search">
+                            <button>search</button>
+                        </div>
+                    </form>
+        </nav>
+    </header>
+    <section>
+        <div class="image-container swiper">
+            <div class="image-direction swiper-wrapper ">
+                <div class="image image1 swiper-slide">
+                    <div class="title">
+                        <h2><i>Indonesia</i></h2>
+                        <p>Pixel perfect design with awesome contents</p>
+                        <button>Explore now</button>
+                    </div>
+                </div>
+                <div class="image image2 swiper-slide">
+                    <div class="title">
+                        <h2><i>Australia</i></h2>
+                        <p>Pixel perfect design with awesome contents</p>
+                        <button>Explore now</button>
+                    </div>
+                </div>
+                <div class="image image3 swiper-slide">
+                    <div class="title">
+                        <h2><i>Switzerland</i></h2>
+                        <p>Pixel perfect design with awesome contents</p>
+                        <button>Explore now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next next-button"></div>
+            <div class="swiper-button-prev prev-button"></div>
+        </div>
+        <div class="secim-inputs-container">
+            <div class="direction">
+                <h3>Where you want to go?</h3>
+                <input type="text" placeholder="Where to go?">
+                <input type="text" id="date" name="date" placeholder="Date">
+                <select>
+                    <option>Travel type</option>
+                    <option>Some option</option>
+                    <option>Another option</option>
+                </select>
+                <div class="button-container">
+                    <button><a href="">Search</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+
+        <div class="cards-title">
+            <div>Popular Destination</div>
+            <p>Suffered alteration in some form, by injected humour or good day <br>randomised booth anim 8-bit hella
+                wolf moon beard words.</p>
+        </div>
+        <div class="cards-container">
+            <div class=" card card-box1">
+                <img src="assets/images-page1/card1.jpg" alt="card1">
+                <span>Italy</span> <button><a href="destination.html">07 Places</a></button>
+            </div>
+            <div class="card card-box2">
+                <img src="assets/images-page1/card2.jpg" alt="card2">
+                <span>Brazil</span><button> <a href="destination.html">03 Places </a></button>
+            </div>
+            <div class=" card card-box3">
+                <img src="assets/images-page1/cards3.webp" alt="card3">
+                <span>America</span><button><a href="destination.html">10 Places</a></button>
+            </div>
+            <br>
+            <div class="card card-box4">
+                <img src="assets/images-page1/cards4.webp" alt="card4">
+                <span>Nepal</span><button><a href="destination.html">02 Places</a></button>
+            </div>
+            <div class="card card-box5">
+                <img src="assets/images-page1/card5.avif" alt="card5">
+                <span>Maldives</span><button><a href="destination.html">02 Places</a></button>
+            </div>
+            <div class="card card-box6">
+                <img src="assets/images-page1/card6.jpg" alt="card6">
+                <span>Indonesia</span><button><a href="destination.html">05 Places</a></button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="e-mail-container">
+            <div class="e-mail-parent">
+                <h3>Subscribe Our Newsletter</h3>
+                <div class="flex">
+                    <p>Subscribe newsletter to get offers and about <br> new places to discover.</p>
+                    <input type="text" placeholder="Your mail">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="cards2-title">
+            <h3>Popular Places</h3>
+            <p>Suffered alteration in some form, by injected humour or good day <br> randomised booth anim 8-bit hella
+                wolf moon beard words.</p>
+        </div>
+        <div class="cards2-container">
+            <div class="cards2">
+                <div class="box-shadow">
+                    <div class="price-box">$500</div>
+                    <img src="assets/images-page1/1.png (1).webp" alt="">
+                    <div class="card-title">California</div>
+                    <div class="city">United Statae of America</div>
+                    <div class="parent-stars">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="stars-info">(20 Review)</div>
+                        <i class="fa-regular fa-clock"></i>
+                        <div class="clock-info">5 Days</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards2">
+                <div class="box-shadow">
+                    <div class="price-box">$500</div>
+                    <img src="assets/images-page1/2.png (1).webp" alt="">
+                    <div class="card-title">Korola Megna</div>
+                    <div class="city">United Statae of America</div>
+                    <div class="parent-stars">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="stars-info">(20 Review)</div>
+                        <i class="fa-regular fa-clock"></i>
+                        <div class="clock-info">5 Days</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards2">
+                <div class="box-shadow">
+                    <div class="price-box">$500</div>
+                    <img src="assets/images-page1/3.png (1).webp" alt="">
+                    <div class="card-title">London</div>
+                    <div class="city">United Statae of America</div>
+                    <div class="parent-stars">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="stars-info">(20 Review)</div>
+                        <i class="fa-regular fa-clock"></i>
+                        <div class="clock-info">5 Days</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards2">
+                <div class="box-shadow">
+                    <div class="price-box">$500</div>
+                    <img src="assets/images-page1/4.png (1).webp" alt="">
+                    <div class="card-title">Miami Beach</div>
+                    <div class="city">United Statae of America</div>
+                    <div class="parent-stars">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="stars-info">(20 Review)</div>
+                        <i class="fa-regular fa-clock"></i>
+                        <div class="clock-info">5 Days</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards2">
+                <div class="box-shadow">
+                    <div class="price-box">$500</div>
+                    <img src="assets/images-page1/5.png (1).webp" alt="">
+                    <div class="card-title">California</div>
+                    <div class="city">United Statae of America</div>
+                    <div class="parent-stars">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="stars-info">(20 Review)</div>
+                        <i class="fa-regular fa-clock"></i>
+                        <div class="clock-info">5 Days</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards2">
+                <div class="box-shadow">
+                    <div class="price-box">$500</div>
+                    <img src="assets/images-page1/6.png (1).webp" alt="">
+                    <div class="card-title">Saintmartine Iceland</div>
+                    <div class="city">United Statae of America</div>
+                    <div class="parent-stars">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="stars-info">(20 Review)</div>
+                        <i class="fa-regular fa-clock"></i>
+                        <div class="clock-info">5 Days</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more-places-container">
+            <button class="more-places"><a href="">More Places</a></button>
+        </div>
+    </section>
+    <section>
+        <div class="video-image-container">
+            <div class="video-image">
+                <h3>Enjoy Video</h3>
+                <div class="video-box-container">
+                    <div class="video-box">
+                        <a href="https://www.youtube.com/watch?v=f59dDEk57i0&t=1s&ab_channel=EricaFernandes"
+                            target="_parent"> <i class="fa-solid fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="svg-container">
+            <div class="svgs">
+                <div class="svgs-info">
+                    <img src="assets/images-page1/1.svg" alt="">
+                    <h3>Comfortable Journey</h3>
+                    <p>A wonderful serenity has taken to the <br><span>possession of my entire soul.</span> </p>
+                </div>
+                <div class="svgs-info">
+                    <img src="assets/images-page1/2.svg" alt="">
+                    <h3>Luxuries Hotel</h3>
+                    <p>A wonderful serenity has taken to the <br><span> possession of my entire soul.</span></p>
+                </div>
+                <div class="svgs-info">
+                    <img src="assets/images-page1/3.svg" alt="">
+                    <h3>Travel Guide</h3>
+                    <p>A wonderful serenity has taken to the <br><span> possession of my entire soul.</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="slide-container swiper">
+        <div class="slides swiper-wrapper">
+            <div class="slide swiper-slide">
+                <div class="quotion-ball"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                        fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M18.07 10.07c-.42 0-.83.07-1.22.17.09-.3.17-.61.32-.88.11-.31.29-.58.47-.84.15-.29.41-.49.6-.74.2-.24.47-.4.69-.6.21-.21.49-.32.71-.46.23-.13.43-.28.65-.35.21-.09.39-.16.54-.22.3-.12.47-.2.47-.2l-.48-1.94s-.22.05-.6.14c-.19.05-.42.1-.69.17-.27.05-.56.19-.88.31-.32.14-.69.24-1.03.47-.34.22-.74.4-1.09.69-.34.3-.75.56-1.05.94-.33.36-.66.73-.91 1.16-.29.41-.49.86-.7 1.3-.19.44-.34.9-.47 1.34-.24.88-.34 1.72-.38 2.44-.03.72-.01 1.32.03 1.75.02.2.04.4.06.54l.03.17c.2 2.56 2.31 4.58 4.93 4.58 2.74 0 4.96-2.22 4.96-4.96s-2.22-4.96-4.96-4.96ZM6.09 10.07c-.42 0-.83.07-1.22.17.09-.3.17-.61.32-.88.11-.31.29-.58.47-.84.15-.29.41-.49.6-.74.2-.24.47-.4.69-.6.21-.21.49-.32.71-.46.23-.13.43-.28.65-.35.21-.09.39-.16.54-.22.3-.12.47-.2.47-.2l-.48-1.94s-.22.05-.6.14c-.19.05-.42.1-.69.17-.27.05-.56.19-.88.31-.32.14-.69.24-1.03.47-.34.22-.74.4-1.09.69-.34.3-.75.56-1.05.94-.33.36-.66.73-.91 1.16-.29.41-.49.86-.7 1.3-.19.44-.34.9-.47 1.34-.24.88-.34 1.72-.38 2.44-.03.72-.01 1.32.03 1.75.02.2.04.4.06.54l.03.17c.2 2.56 2.31 4.58 4.93 4.58 2.74 0 4.96-2.22 4.96-4.96s-2.22-4.96-4.96-4.96Z">
+                        </path>
+                    </svg></div>
+                <img src="assets/images-page1/author.png (1).webp">
+                <p>Working in conjunction with humanitarian aid agencies, we have supported <br><span>programmes to help
+                        alleviate human suffering</span></p>
+                <h3>- Micky Mouse</h3>
+            </div>
+            <div class="slide swiper-slide">
+                <div class="quotion-ball"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                        fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M18.07 10.07c-.42 0-.83.07-1.22.17.09-.3.17-.61.32-.88.11-.31.29-.58.47-.84.15-.29.41-.49.6-.74.2-.24.47-.4.69-.6.21-.21.49-.32.71-.46.23-.13.43-.28.65-.35.21-.09.39-.16.54-.22.3-.12.47-.2.47-.2l-.48-1.94s-.22.05-.6.14c-.19.05-.42.1-.69.17-.27.05-.56.19-.88.31-.32.14-.69.24-1.03.47-.34.22-.74.4-1.09.69-.34.3-.75.56-1.05.94-.33.36-.66.73-.91 1.16-.29.41-.49.86-.7 1.3-.19.44-.34.9-.47 1.34-.24.88-.34 1.72-.38 2.44-.03.72-.01 1.32.03 1.75.02.2.04.4.06.54l.03.17c.2 2.56 2.31 4.58 4.93 4.58 2.74 0 4.96-2.22 4.96-4.96s-2.22-4.96-4.96-4.96ZM6.09 10.07c-.42 0-.83.07-1.22.17.09-.3.17-.61.32-.88.11-.31.29-.58.47-.84.15-.29.41-.49.6-.74.2-.24.47-.4.69-.6.21-.21.49-.32.71-.46.23-.13.43-.28.65-.35.21-.09.39-.16.54-.22.3-.12.47-.2.47-.2l-.48-1.94s-.22.05-.6.14c-.19.05-.42.1-.69.17-.27.05-.56.19-.88.31-.32.14-.69.24-1.03.47-.34.22-.74.4-1.09.69-.34.3-.75.56-1.05.94-.33.36-.66.73-.91 1.16-.29.41-.49.86-.7 1.3-.19.44-.34.9-.47 1.34-.24.88-.34 1.72-.38 2.44-.03.72-.01 1.32.03 1.75.02.2.04.4.06.54l.03.17c.2 2.56 2.31 4.58 4.93 4.58 2.74 0 4.96-2.22 4.96-4.96s-2.22-4.96-4.96-4.96Z">
+                        </path>
+                    </svg></div>
+                <img src="assets/images-page1/author.png (1).webp">
+                <p>Working in conjunction with humanitarian aid agencies, we have supported <br><span> programmes to
+                        help alleviate human suffering</span></p>
+                <h3>- Tom Mouse</h3>
+            </div>
+            <div class="slide swiper-slide">
+                <div class="quotion-ball"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                        fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M18.07 10.07c-.42 0-.83.07-1.22.17.09-.3.17-.61.32-.88.11-.31.29-.58.47-.84.15-.29.41-.49.6-.74.2-.24.47-.4.69-.6.21-.21.49-.32.71-.46.23-.13.43-.28.65-.35.21-.09.39-.16.54-.22.3-.12.47-.2.47-.2l-.48-1.94s-.22.05-.6.14c-.19.05-.42.1-.69.17-.27.05-.56.19-.88.31-.32.14-.69.24-1.03.47-.34.22-.74.4-1.09.69-.34.3-.75.56-1.05.94-.33.36-.66.73-.91 1.16-.29.41-.49.86-.7 1.3-.19.44-.34.9-.47 1.34-.24.88-.34 1.72-.38 2.44-.03.72-.01 1.32.03 1.75.02.2.04.4.06.54l.03.17c.2 2.56 2.31 4.58 4.93 4.58 2.74 0 4.96-2.22 4.96-4.96s-2.22-4.96-4.96-4.96ZM6.09 10.07c-.42 0-.83.07-1.22.17.09-.3.17-.61.32-.88.11-.31.29-.58.47-.84.15-.29.41-.49.6-.74.2-.24.47-.4.69-.6.21-.21.49-.32.71-.46.23-.13.43-.28.65-.35.21-.09.39-.16.54-.22.3-.12.47-.2.47-.2l-.48-1.94s-.22.05-.6.14c-.19.05-.42.1-.69.17-.27.05-.56.19-.88.31-.32.14-.69.24-1.03.47-.34.22-.74.4-1.09.69-.34.3-.75.56-1.05.94-.33.36-.66.73-.91 1.16-.29.41-.49.86-.7 1.3-.19.44-.34.9-.47 1.34-.24.88-.34 1.72-.38 2.44-.03.72-.01 1.32.03 1.75.02.2.04.4.06.54l.03.17c.2 2.56 2.31 4.58 4.93 4.58 2.74 0 4.96-2.22 4.96-4.96s-2.22-4.96-4.96-4.96Z">
+                        </path>
+                    </svg></div>
+                <img src="assets/images-page1/author.png (1).webp">
+                <p>Working in conjunction with humanitarian aid agencies, we have supported <br><span>programmes to help
+                        alleviate human suffering</span> </p>
+                <h3>- Jery Mouse</h3>
+            </div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="cards3-title">
+        <h3>Recent Trips</h3>
+    </div>
+    <div class="cards3-container">
+        <div class="cards3">
+            <img src="assets/images-page1/cardsss1.png" alt="">
+            <span>Oct 12, 2019</span>
+            <h3>Journeys Are Best Measured In <br> New Friends</h3>
+        </div>
+        <div class="cards3">
+            <img src="assets/images-page1/cardss2.png" alt="">
+            <span>Oct 12, 2019</span>
+            <h3>Journeys Are Best Measured In <br> New Friends</h3>
+        </div>
+        <div class="cards3">
+            <img src="assets/images-page1/cardss.png (2).webp" alt="">
+            <span>Oct 12, 2019</span>
+            <h3>Journeys Are Best Measured In <br> New Friends</h3>
+        </div>
+    </div>
+    <footer class="footer-section-container">
+        <div class="footer-section">
+            <img src="assets/images-page1/footer_logo.png.webp" alt="">
+            <p>5th flora, 700/D kings road, green <br>
+                lane New York-1782 <br>
+                +10 367 826 2567 <br>
+                contact@carpenter.com</p>
+            <div class="footer-icons">
+               <a href=""> <i class="fa-brands fa-facebook-f"></i></a>
+               <a href=""> <i class="fa-brands fa-twitter"></i></a>
+               <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <hr>
+            </div>
+            <div class="footer-end-word-container">
+             <p class="footer-end-word">Copyright ©2025 All rights reserved | This template is made with <i class="fa-regular fa-heart"></i>  by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+            </div>
+        </div>
+        <div class="footer-top-gap">
+            <div class="footer-top">
+                <div class="footer-info">
+                    <h3>Company</h3>
+                    <div class="info-gap">
+                    <ul>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-top">
+                <div class="footer-info">
+                    <h3>Popular Destination</h3>
+                  <div class="info-gap">
+                    <ul>
+                        <li><a href="">Indonesia</a></li>
+                        <li><a href="">India</a></li>
+                        <li><a href="">Italia</a></li>
+                        <li><a href="">Franch</a></li>
+                    </ul>
+                      <ul>
+                        <li><a href="">America</a></li>
+                        <li><a href="">Switzerland</a></li>
+                        <li><a href="">Canada</a></li>
+                        <li><a href="">England</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-top">
+                <div class="footer-info">
+                    <h3>Instagram</h3>
+                    <div class="smale-imgs">
+                    <img src="assets/images-page1/footer1.png" alt="">
+                    <img src="assets/images-page1/footer2.png (2).webp" alt="">
+                    <img src="assets/images-page1/footer3.png" alt="">
+                    <img src="assets/images-page1/footer4.png (3).webp" alt="">
+                    <img src="assets/images-page1/footer5.png (2).webp" alt="">
+                    <img src="assets/images-page1/footer6.png (2).webp" alt="">
+                    </div>
+                </div>
+                    </div>
+                    </div>
+
+    </footer>
+
+    <script type="module">
+        var swiper = new Swiper('.image-container', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            speed: 1600,
+            effect: 'fade',
+            fadeEffect: {
+                crossFade: true,
+            },
+        });
+        var swiper = new Swiper('.slide-container', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            }
+        });
+    </script>
+    <script src="assets/js/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
